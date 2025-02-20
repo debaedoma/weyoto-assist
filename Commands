@@ -1,0 +1,2 @@
+$env:FLASK_APP="app.py" (Temporarily set FLASK_APP)
+$env:WEYOTO_ASSIST_DATABASE_URL (Check Postgre SQL is connected)

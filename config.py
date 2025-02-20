@@ -1,0 +1,5 @@
+import os
+
+class Config:
+    SQLALCHEMY_DATABASE_URI = os.getenv("WEYOTO_ASSIST_DATABASE_URL")
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
