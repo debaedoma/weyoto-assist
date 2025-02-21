@@ -29,7 +29,7 @@ flask run --debug                      # Run Flask app with debug mode
 
 # Set environment variables (temporary - PowerShell)
 $env:FLASK_APP="app.py"
-$env:DATABASE_URL="postgresql://weyoto_user:yourpassword@localhost:5432/weyoto_assist"
+$env:DATABASE_URL="postgresql://DBuser:yourpassword@localhost:5432/weyoto_assist"
 
 # ✅ Database Migrations (Flask-Migrate)
 flask db init                          # Initialize migrations
